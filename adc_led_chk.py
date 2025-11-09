@@ -34,5 +34,6 @@ while True:
     GPIO.output(13, False)  
     GPIO.output(15, False)  
     GPIO.output(19, False)  
-    GPIO.output(21, False)  
+    GPIO.output(21, False)
+    GPIO.cleanup()  
     exit()
