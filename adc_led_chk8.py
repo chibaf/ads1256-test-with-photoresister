@@ -24,7 +24,7 @@ while True:
 #
    for i in range(0,8):
      GPIO.output(led[i],1)
-     time.sleep(1)
+     time.sleep(2)
      GPIO.output(led[i],0)
      time.sleep(1)
 #    GPIO.output(int(sys.argv[1]), 1) # 250331
